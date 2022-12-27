@@ -1,33 +1,4 @@
-/*******************************************************************************
-DON NOT ALTER CSS BELOW
 
-DM 12-2-2022
-- Working on IDX shortcodes
-- IDX Shortcodes are in contained area of the Only development Page
-- CSS rules below are strictly directed to those shortcodes
-- rules are commented out when not working on them
-- page is drafted to avoid accidently viewing.
-*******************************************************************************/
-
-
-/*------------------------------------------------------------------------------
-Optima Express development
-------------------------------------------------------------------------------*/
-    /* developer markers
-    --------------------------------------------------------------------------*/
-    /* .dm-row {
-        margin-top: 0px;
-        margin-bottom: 50px;
-        border: 2px dashed pink;
-    }
-    
-    .dm-oe-slider .ihf-container {
-        /*background-color: red;*
-        border: 1px dotted #555555;
-    } */
-
-    /* construction
-    --------------------------------------------------------------------------*/
     :root{
         /* optima express 
         ----------------------------------------------------------------------*/
@@ -142,7 +113,6 @@ Optima Express development
         --lst_thmb-sllrep-fnt-wght: 400;
         --lst_thmb-sllrep-fnt: #555555;
 
-
         /* OE single page only --------------------------------------------------*/
         /* pagination control styling */
         --sngl_lst_cntrl-pos: center; /* values: start, center, end */
@@ -201,7 +171,6 @@ Optima Express development
         /* carousel control arrows */
         --sngl_lst_crsl_cntrl-fnt: #ce133f;
         
-        
         /* content tabs */
         --sngl_lst_cntnt_tab-fnt: #555555;
         --sngl_lst_cntnt_tab-fnt-wght: 500;
@@ -213,7 +182,6 @@ Optima Express development
         --sngl_lst_cntnt_tab_act-brdr-rad: 5px;
         --sngl_lst_cntnt_tab_act-bg: rgba(206, 19, 63, 1); /* value: rgba */
         --sngl_lst_cntnt_tab_act-fnt: #ffffff;
-
 
         /* features tab, content pane, table */
         --sngl_lst_tbl_hdr-bg: #ce133f;
@@ -384,8 +352,6 @@ for shortcodes
         color: var(--sldr_thmb-sllrep-fnt);
     }
 
-
-    
 /* gallery pages ================================================================================*/
 
     /* list page button styling | all lists ----------------------------------*/
@@ -486,7 +452,6 @@ for shortcodes
         color: var(--lst_thmb-sllrep-fnt);
     }
 
-/* WORKING ON */
     /* single page ===========================================================*/
     /* rows */
     .dm-tmp-single.ihf-container .ihf-listing-detail>div {
