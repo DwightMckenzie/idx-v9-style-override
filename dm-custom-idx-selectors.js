@@ -1,14 +1,6 @@
-
-
-
-///////////////////////////////////////////////////////////////////// 1.2
-
-// <script>
 (function dmCustomIDX() {
+	"use strict";
 	console.log('dm custom idx, active');
-
-	// // for IDX template pages
-	// let subDivs = "";
 
 	// IDX shortcodes
 	function shortCode() {
@@ -127,4 +119,3 @@
 		oeModal();
 	}, 2000);
 })();
-// </script>
